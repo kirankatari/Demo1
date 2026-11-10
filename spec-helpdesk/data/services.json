@@ -1,0 +1,38 @@
+{
+  "vpn": {
+    "name": "Northstar Connect VPN",
+    "status": "degraded",
+    "summary": "Intermittent disconnects on the remote-access gateway since 9:10 a.m. Eastern Time. Failover to the secondary concentrator is in progress.",
+    "workaround": "Use the Backup Gateway profile or a phone hotspot for the current meeting. Do not reinstall the client in the 30 minutes before a presentation."
+  },
+  "email": {
+    "name": "Email",
+    "status": "operational",
+    "summary": "Mail flow is normal. Attachments over 25 MB are still rejected.",
+    "workaround": ""
+  },
+  "teams": {
+    "name": "Teams",
+    "status": "operational",
+    "summary": "Meetings and chat are available. Media can freeze while the VPN is reconnecting.",
+    "workaround": "Rejoin meeting audio after the tunnel is stable."
+  },
+  "sso": {
+    "name": "Single sign-on",
+    "status": "operational",
+    "summary": "Northstar sign-in is accepting normal authentication.",
+    "workaround": ""
+  },
+  "wifi": {
+    "name": "Office Wi-Fi",
+    "status": "operational",
+    "summary": "Northstar-Corp and Northstar-Guest are broadcasting at headquarters.",
+    "workaround": ""
+  },
+  "catalog": {
+    "name": "Software catalog",
+    "status": "operational",
+    "summary": "Endpoint installs, including Northstar Connect, are available.",
+    "workaround": ""
+  }
+}
