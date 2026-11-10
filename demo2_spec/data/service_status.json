@@ -1,0 +1,50 @@
+{
+  "vpn": {
+    "name": "Northstar VPN (GlobalProtect)",
+    "status": "degraded",
+    "since": "2026-11-10T14:05:00-05:00",
+    "message": "Intermittent disconnects for remote employees on the US-East gateway since 2:05 PM ET. Workaround: set the GlobalProtect gateway to US-Central."
+  },
+  "email": {
+    "name": "Northstar Email",
+    "status": "operational",
+    "since": "2026-11-10T08:00:00-05:00",
+    "message": "Mail flow is normal."
+  },
+  "sso": {
+    "name": "Northstar sign-in",
+    "status": "operational",
+    "since": "2026-11-10T08:00:00-05:00",
+    "message": "Directory sign-in is accepting logins."
+  },
+  "wifi": {
+    "name": "Office Wi-Fi",
+    "status": "operational",
+    "since": "2026-11-10T08:00:00-05:00",
+    "message": "Northstar-Corp is up in all offices."
+  },
+  "m365": {
+    "name": "Microsoft 365",
+    "status": "operational",
+    "since": "2026-11-10T08:00:00-05:00",
+    "message": "Office apps and OneDrive are available."
+  },
+  "zoom": {
+    "name": "Zoom",
+    "status": "operational",
+    "since": "2026-11-10T08:00:00-05:00",
+    "message": "Meetings can be joined from the desktop client or the browser."
+  },
+  "endpoint": {
+    "name": "Endpoint management",
+    "status": "operational",
+    "since": "2026-11-10T08:00:00-05:00",
+    "message": "Laptop check-in is current."
+  },
+  "printing": {
+    "name": "Office printing",
+    "status": "degraded",
+    "since": "2026-11-10T11:30:00-05:00",
+    "message": "The 4th floor queue in the Chicago office is delayed. Other floors are normal."
+  }
+}
