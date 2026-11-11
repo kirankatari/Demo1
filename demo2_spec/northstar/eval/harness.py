@@ -56,7 +56,7 @@ def run_case(case: dict) -> dict:
     retrieval_hit = False
     scored_retrieval = False
     kind = case["kind"]
-    with tempfile.TemporaryDirectory() as temp_dir:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as temp_dir:
         if kind == "retrieval":
             knowledge = KnowledgeBase(PACKAGE_ROOT / "knowledge")
             found = knowledge.search(case.get("query") or "", top_k=3)
